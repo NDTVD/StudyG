@@ -4,7 +4,7 @@ A Java-based web application that gamifies learning with mystery box rewards, it
 
 ## Features
 
-### 🎮 Core Gameplay
+### Core Gameplay
 - **Mystery Box System**: 16 interactive boxes with per-box probability distributions
   - Each box has unique reward odds for points, play tickets, and rare items
   - Jackpot mechanic (1/1000 chance per real open)
@@ -19,13 +19,13 @@ A Java-based web application that gamifies learning with mystery box rewards, it
   - **Play Tickets**: Single (play:1), Double (play:2), or Jackpot (play:100)
   - **Items**: Rare stickers to collect and display
 
-### 👤 User Management
+### User Management
 - User registration and authentication
 - Session-based login
 - User profiles with inventory tracking
 - Persistent data via DAO pattern (MSSQL or InMemory)
 
-### 📦 Inventory System
+### Inventory System
 - View collected items
 - Item persistence in database
 - Display items in user profile
@@ -142,7 +142,7 @@ POST /openbox?index=0
 ```json
 {
   "reward": "play:2",
-  "itemDisplay": "🎟️ Play x2",
+  "itemDisplay": "Play x2",
   "points": 150,
   "plays": 2
 }
