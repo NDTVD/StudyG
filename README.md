@@ -90,18 +90,6 @@ StudG/
 - Apache Ant
 - MSSQL Server (optional; defaults to in-memory DAO)
 
-### Build Instructions
-
-```bash
-cd d:\FPT\StudG
-
-# Clean and build
-ant clean build
-
-# Deploy to Tomcat
-# Copy build/web/ contents to Tomcat webapps/StudG/
-```
-
 ### Database Setup (Optional - MSSQL)
 
 1. Run [sql/schema.sql](sql/schema.sql) to create tables:
@@ -114,12 +102,9 @@ ant clean build
 ### Running Locally
 
 ```bash
-# Using Tomcat
-# 1. Start Tomcat server
-# 2. Navigate to http://localhost:8080/StudG/
-
-# Or use NetBeans IDE:
+# Use NetBeans IDE:
 # Open the project and run (F6)
+# http://localhost:8080/StudG/
 ```
 
 ## User Workflow
