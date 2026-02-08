@@ -7,7 +7,7 @@ A comprehensive educational web application built with Java Servlets and JSP, fe
 - **Frontend:** JSP, HTML5, CSS3, JavaScript
 - **Backend:** Java Servlets, OOP Design Patterns
 - **Database:** MSSQL Server
-- **Build Tool:** Maven
+- **Build Tool:** Ant
 - **Server:** Apache Tomcat
 
 ## Features
